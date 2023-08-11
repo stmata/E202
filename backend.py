@@ -32,7 +32,7 @@ def index_documents(folder):
     index.storage_context.persist(persist_dir=".") # save in current directory
 
 # To start the indexing process, call the index_documents with the name of the folder containing your documents: 
-doc_path = '../Docs/'
+doc_path = './Docs/'
 Index_store_path = './vector_store.json'
 
 file_exists = exists(Index_store_path)
