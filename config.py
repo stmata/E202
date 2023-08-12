@@ -1,3 +1,3 @@
 def opai_key():
-    key = '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'
+    key = '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'
     return key
